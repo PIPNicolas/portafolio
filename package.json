@@ -22,8 +22,8 @@
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.3",
     "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-hot-loader": "^4.13.1",
     "sass": "^1.69.5",
     "sass-loader": "^13.3.2",
@@ -32,5 +32,4 @@
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
   }
-  
 }
