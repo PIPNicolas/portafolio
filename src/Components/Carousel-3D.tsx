@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import  { useState, useEffect, useRef } from 'react';
 import { useSwipeable } from 'react-swipeable';
 import PropTypes from 'prop-types';
 
@@ -19,10 +19,10 @@ interface CarouselProps {
 }
 
 export function Carousel(props: CarouselProps): JSX.Element {
-  const [slideTotal, setSlideTotal] = useState(0);
+  const [/* slideTotal */, setSlideTotal] = useState(0);
   const [slideCurrent, setSlideCurrent] = useState(-1);
   const [slides, setSlides] = useState<CarouselSlide[]>([]);
-  const [height, setHeight] = useState('0px');
+  const [height, /* setHeight */] = useState('0px');
   const intervalRef = useRef<number | null>(null);
   const nextRef = useRef<HTMLDivElement>(null);
   const handlers = useSwipeable({
